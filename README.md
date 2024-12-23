@@ -1,16 +1,35 @@
-# flutter_aplikasi2
+# Implementasi data API ke dalam apliksai flutter
 
-A new Flutter project.
+- nama : DIMAS JANUAR PRADANA
+- kelas: 2A TRPL
 
-## Getting Started
+## Tangkapan Layar
 
-This project is a starting point for a Flutter application.
+[tangkapan layar]
 
-A few resources to get you started if this is your first Flutter project:
+- Pencarian cuaca berdasarkan nama kota
+- Menampilkan suhu saat ini
+- Menampilkan deskripsi cuaca
+- Menghitung dan menampilkan suhu rata-rata
+- Antarmuka pengguna yang bersih dan intuitif
+- Desain latar belakang gradien
+- Tata letak responsif
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Struktur Proyek
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- `main.dart` - Berisi kode aplikasi utama dan implementasi UI
+- `api_service.dart` - Menangani panggilan API dan pemrosesan data
+
+## Implementasi Fitur
+
+### Layanan API
+- Menggunakan API Geocoding OpenWeatherMap untuk mengkonversi nama kota menjadi koordinat
+- Mengambil data cuaca menggunakan koordinat
+- Memproses dan mengembalikan informasi cuaca yang telah diformat
+
+### Antarmuka Pengguna
+- Implementasi desain Material
+- Latar belakang gradien
+- Tampilan informasi cuaca berbasis kartu
+- Fungsi pencarian dengan input teks
+- Tombol refresh untuk memperbarui data cuaca
